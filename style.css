@@ -22,4 +22,18 @@ header , footer , .score {
     font-size: 20px;
 }
 
+@media all and (max-width: 650px) {
+    button { 
+        min-width: 150px;
+        min-height: 75px;
+    }
+}
+
+@media all and (max-width : 500px) {
+    button { 
+        min-width: 100px;
+        min-height: 50px;
+    }
+}
+
 
