@@ -14,7 +14,7 @@ button:hover{
 .board { 
     display: grid;
     justify-content: center;
-    margin-top: 150px; 
+    margin-top: 90px; 
 }
 
 header , footer , .score { 
@@ -31,8 +31,8 @@ header , footer , .score {
 
 @media all and (max-width : 500px) {
     button { 
-        min-width: 100px;
-        min-height: 50px;
+        min-width: 120px;
+        min-height: 60px;
     }
 }
 
